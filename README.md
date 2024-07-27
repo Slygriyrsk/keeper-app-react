@@ -40,7 +40,7 @@ Get your Keeper App up and running with these simple steps:
 1.  **Clone the Repository**
 
     ```bash
-    git clone https://github.com/Slygriyrsk/keeper-app.git
+    git clone https://github.com/Slygriyrsk/keeper-app-react.git
     cd keeper-app
     ```
 
