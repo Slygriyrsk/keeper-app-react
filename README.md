@@ -41,7 +41,7 @@ Get your Keeper App up and running with these simple steps:
 
     ```bash
     git clone https://github.com/Slygriyrsk/keeper-app-react.git
-    cd keeper-app
+    cd keeper-app-react
     ```
 
 2.  **Install Dependencies**
