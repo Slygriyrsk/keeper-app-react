@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  padding: 0;
+}
+
+header {
+  background-color: #f5ba13;
+  padding: 20px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+header h1 {
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5ba13;
+  color: #fff;
+  text-align: center;
+  line-height: 2.5rem;
+  padding: 10px 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.note {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  margin: 10px 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 300px;
+  overflow: hidden;
+  flex: 1 1 calc(25% - 20px);
+}
+
+.note:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+.note h1 {
+  font-size: 1.25em;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.note p {
+  font-size: 1em;
+  margin-bottom: 15px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  align-self: flex-end;
+  margin: 5px;
+  color: #f5ba13;
+  background-color: transparent;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.note button:hover {
+  background-color: rgba(245, 186, 19, 0.1);
+  border-radius: 50%;
+  color: #d89e00;
+}
+
+form {
+  max-width: 600px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: 1px solid #ced4da;
+  padding: 12px 0;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1em;
+  resize: none;
+  transition: box-shadow 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #f5ba13;
+  box-shadow: 0 0 5px rgba(245, 186, 19, 0.5);
+}
+
+form button {
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #d89e00;
+}
